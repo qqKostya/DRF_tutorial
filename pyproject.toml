@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tutor-drf"
+version = "0.1.0"
+description = ""
+authors = ["qqKazakov <leap74rus@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tutor_drf"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+django = "^4.2.1"
+djangorestframework = "^3.14.0"
+pygments = "^2.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
